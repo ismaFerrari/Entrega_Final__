@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuarios</title>
+    <!-- Agrega tu enlace a tu archivo de estilos aquí -->
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+
+    <div id="user-form">
+        <h2>Agregar Usuario</h2>
+        <form id="user-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <button type="submit">Agregar Usuario</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Lista de Usuarios</h2>
+        <ul id="user-list"></ul>
+    </div>
+
+    <div>
+        <h2>Eliminar Usuario</h2>
+        <label for="user-select">Selecciona un usuario:</label>
+        <select id="user-select"></select>
+        <button id="delete-user">Eliminar Usuario</button>
+    </div>
+
+    <!-- Agrega tu enlace a tu archivo de scripts aquí -->
+    <script src="main.js"></script>
+</body>
+</html>
